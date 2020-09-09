@@ -13,7 +13,6 @@ for f in glob.glob("datasets/weekly_call_data/weekdata_*.xlsx"):
     df = pd.read_excel(f)
     all_data = all_data.append(df,ignore_index=True)
 all_data.describe()
-df.head()
 
 
 # In[ ]:
